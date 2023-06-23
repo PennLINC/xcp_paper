@@ -1,7 +1,7 @@
 xcp_d \
     --participant_label 01
     -t rest \
-    --bids-filter-file filter.json \
+    # --bids-filter-file ??? \  # No filtering needed
     --combineruns \
     --cifti \
     --nthreads 1 \
@@ -31,7 +31,7 @@ xcp_d \
     --exact-time 300 600 \  # 5- and 10-minute correlation matrices
     -w work_dir \
     # --clean-workdir \
-    --resource-monitor \
+    # --resource-monitor \
     # --notrack \
     --warp-surfaces-native2std \
     --dcan-qc \
