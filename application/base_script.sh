@@ -23,7 +23,7 @@ xcp_d \
     --upper-bpf 0.08 \
     --bpf-order 2 \
     --motion-filter-type notch \
-    --band-stop-min 12 \
+    --band-stop-min 12 \ # waiting on input
     --band-stop-max 18 \
     --motion-filter-order 4 \
     --head-radius auto \
