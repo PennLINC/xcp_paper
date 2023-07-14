@@ -10,7 +10,7 @@ xcp_d \
     # --use-plugin ??? \  # No Nipype plugin
     -v \
     --input-type fmriprep \
-    --smoothing 6 \
+    --smoothing 2 \
     --despike \
     -p 36P \
     # -c ??? \  # No custom confounds
