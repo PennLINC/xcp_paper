@@ -27,7 +27,7 @@ xcp_d \
     --band-stop-max 18 \
     --motion-filter-order 4 \
     --head-radius auto \
-    --fd-thresh 0.3 \  # may adjust for each dataset's TR to equal 0.3 mm/sec
+    --fd-thresh 0.3 \
     --exact-time 300 480 600 \  # 5- 8- and 10-minute correlation matrices
     -w work_dir \
     # --clean-workdir \
