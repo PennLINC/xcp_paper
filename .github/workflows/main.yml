@@ -1,9 +1,10 @@
-- name: clean unnecessary files to save space
+name: clean unnecessary files to save space
   run: |
-     docker rmi `docker images -q`
-     sudo rm -rf /usr/share/dotnet /etc/mysql /etc/php /etc/sudo apt/sources.list.d
-     sudo apt -y autoremove --purge
-     sudo apt -y autoclean
-     sudo apt clean
-     rm --recursive --force "$AGENT_TOOLSDIRECTORY"
-     df -h
+    docker rmi `docker images -q`
+    sudo rm -rf /usr/share/dotnet /etc/mysql /etc/php /etc/sudo apt/sources.list.d
+    sudo apt -y autoremove --purge
+    sudo apt -y autoclean
+    sudo apt clean
+    rm --recursive --force "$AGENT_TOOLSDIRECTORY"
+    df -h
+         
