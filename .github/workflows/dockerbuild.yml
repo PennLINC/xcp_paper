@@ -44,7 +44,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: kahinimehta12/xcptest
+          images: pennlinc/xcp_walkthrough
           tags: |
             type=ref,event=branch
             type=semver,pattern={{version}}
